@@ -180,6 +180,7 @@ h3, h2 {
 
 #contact-form ul {
   margin-bottom: 20px;
+  list-style-type: none;
 }
 
 #contact-form li {
@@ -217,12 +218,24 @@ input[type=submit] {
 }
 
 @media screen and (max-width: 980px){
-
+  nav{
+    clear:right;
+    margin-right:3%;
+  }
 }
 
 @media screen and (max-width: 768px){
   .container{
       max-width: 768px;
+   }
+
+   nav{
+    clear:right;
+    margin-right: 3%;
+   }
+
+   .auth-image{
+    width:50%;
    }
 }
 
@@ -249,5 +262,17 @@ input[type=submit] {
     padding-top:1%; 
     padding-left: 1%;
     padding-right: 1%;
+  }
+
+  .auth-image{
+    width: 100%;
+  }
+
+  .work{
+    width:100%;
+  }
+
+  #rutgers, #rochambeau, #portfolioFooter{
+    display:none;
   }
 }
