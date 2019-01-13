@@ -1,0 +1,46 @@
+@font-face{
+	font-family: Bohemian_Typewriter;
+	src: url(../fonts/Bohemian_Typewriter.otf);
+}
+
+body{
+	background: url("../images/bookStack.jpeg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	font-family: Bohemian_Typewriter;
+}
+
+#background{
+	margin: 50px;
+	background: rgba(255, 255, 255, 0.5);
+}
+
+h1{
+	font-size: 40px;
+	font-weight: bold;
+	text-align: center;
+	padding: 50px 0px;
+}
+
+h2{
+	font-size: 25px;
+	margin-bottom: 25px;
+}
+
+#container{
+	margin-bottom: 8%;
+}
+
+.col{
+	float: left;
+	width: 30%;
+	margin: 10%;
+}
+
+img{
+	padding-left: 30%;
+}
+
+#clear{
+	clear: left;
+}
